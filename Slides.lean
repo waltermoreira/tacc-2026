@@ -97,7 +97,15 @@ def average (nums : List Nat) : Rat
 ```
 
 :::fragment
-A more interesting example:
+Compare with Python:
+```code "python"
+def average (nums):
+    return sum(nums) / len(nums)
+```
+:::
+
+
+# A more interesting example
 
 ```lean -panel
 def readFirstLine (file : System.FilePath) : IO String
@@ -112,7 +120,6 @@ def readFirstLine (file : System.FilePath) : IO String
 --!fragment
 #eval readFirstLine "Slides.lean"
 ```
-:::
 
 # The Power of Strong Types
 
