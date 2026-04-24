@@ -175,7 +175,7 @@ Other people say that Monads are like a _burrito_.
 ::: fragment
 I want to give you a different "taste". Let's think of Monads as a synonym for *a context*.
 
-Question: (recall Lean is *pure*) what would be the type of the function `date`?
+{class "myblue"}[Question]: (recall Lean is *pure*) what would be the type of the function `date`?
 :::
 
 # A Richer Example
@@ -299,3 +299,7 @@ def eval3 (t : T) : IO Int := do
   (this paper is from 1992!)
 
 # Thank you!
+
+:::fragment
+Questions?
+:::
