@@ -1,0 +1,31 @@
+.reveal {
+    font-size: 30px;
+}
+
+.reveal h2 {
+    font-size: var(--r-heading3-size);
+}
+
+.yellowbg {
+    background-color: yellow;
+}
+
+.myblue {
+    color: #1b91ff;
+}
+
+.mygreen {
+    color: #17ff2e;
+}
+
+.myred {
+    color: #ff2c2d;
+}
+
+.small-list {
+    font-size: 25px;
+}
+
+.small-list li p {
+    margin: 0px;
+}

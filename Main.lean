@@ -3,5 +3,17 @@ import Slides
 
 open VersoSlides
 
-def main (args : List String) : IO UInt32 :=
-  slidesMain (doc := %doc Slides) (args := args)
+def myExtraCss : CssFile where
+  filename := "custom.css"
+  contents := ⟨include_str "custom.css"⟩
+
+def main : IO UInt32 :=
+  slidesMain
+    (config := {
+      theme := "dracula",
+      slideNumber := true,
+      transition := "slide",
+      extraCss := #[myExtraCss]
+      }
+    )
+    (doc := %doc Slides)
