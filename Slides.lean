@@ -265,7 +265,6 @@ def eval2 (t : T) : MyError Int := do
 
 -- !fragment
 #eval eval2 Example
-
 #eval eval2 (T.Div (T.Num 3) (T.Num 0))
 ```
 
@@ -293,7 +292,7 @@ def eval3 (t : T) : IO Int := do
   ```
 
 * Check out our project `Sequencelib` at `provables.org/sequencelib`, and at
-  `github.com/provables`. Lots of Lean and Nix! (joint effort with Joe Stubbs).
+  `github.com/provables`. Lots of Lean and Nix! (joint effort with _Joe Stubbs_).
 
 * Not afraid of monads? Read _The Essence of Functional Programming_ by Philip Wadler
   (this paper is from 1992!)
