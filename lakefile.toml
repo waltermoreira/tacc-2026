@@ -5,12 +5,6 @@ defaultTargets = ["Slides", "generate-slides"]
 name = "verso-slides"
 git = "https://github.com/leanprover/verso-slides.git"
 rev = "main"
-#rev = "3f497e9087e5697488f91ffd2ae6fed7db14fa3f"
-#rev = "v4.29.0"
-
-[[require]]
-name = "mathlib"
-scope = "leanprover-community"
 
 [[lean_lib]]
 name = "Slides"
