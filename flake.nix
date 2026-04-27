@@ -19,7 +19,7 @@
               "aarch64-darwin" = "";
               "aarch64-linux" = "";
               "x86_64-darwin" = "";
-              "x86_64-linux" = "sha256-am60gxRYbMKUrzhi07s7skkJjORsbJECwebJelSwV3Y=";
+              "x86_64-linux" = "sha256-NKRDTClnkKsjxKLd8ZLviTQndRfL/VjauWNjZ+zcRgE=";
             };
           in
           buildLeanDeps {
@@ -31,6 +31,8 @@
               lake build Slides
               lake build generate-slides
               lake exe generate-slides
+              rm -rf .lake/packages/MD4Lean/.lake/build/lib
+              find .lake -name \*.trace -delete
             '';
           };
 
