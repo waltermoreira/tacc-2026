@@ -16,7 +16,7 @@
         slidesDeps =
           let
             hashes = {
-              "aarch64-darwin" = "";
+              "aarch64-darwin" = "sha256-i1FM59Fl5zCzbj57G2cn6XuX5cwukuYkxuuBkQmOlbY=";
               "aarch64-linux" = "";
               "x86_64-darwin" = "";
               "x86_64-linux" = "sha256-NKRDTClnkKsjxKLd8ZLviTQndRfL/VjauWNjZ+zcRgE=";
